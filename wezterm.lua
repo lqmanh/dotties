@@ -8,7 +8,7 @@ return {
     font_size = 11,
     initial_cols = 90,
     initial_rows = 24,
-    line_height = 0.85,
+    line_height = 1.0,
     show_tab_index_in_tab_bar = false,
     use_fancy_tab_bar = true,
     use_resize_increments = true,
