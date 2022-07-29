@@ -1,0 +1,30 @@
+layouts:
+    - tall
+    - two-pane
+    - fullscreen
+    - floating
+
+mod1:
+    - option
+    - shift
+mod2:
+    - option
+    - shift
+    - control
+
+window-margins: true
+smart-window-margins: true
+window-margin-size: 4
+
+ignore-menu-bar: true
+float-small-windows: true
+
+mouse-follows-focus: false
+focus-follows-mouse: false
+mouse-swaps-windows: true
+mouse-resizes-windows: true
+
+enables-layout-hud: true
+enables-layout-hud-on-space-change: false
+
+restore-layouts-on-launch: true
