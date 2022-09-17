@@ -4,6 +4,7 @@ return {
     check_for_updates = false,
     cursor_blink_rate = 500,
     color_scheme = "Gruvbox Dark",
+    enable_scroll_bar = true,
     font = wezterm.font("Victor Mono", { weight = "Medium" }),
     font_size = 11,
     initial_cols = 90,
