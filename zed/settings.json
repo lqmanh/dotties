@@ -1,0 +1,85 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "agent": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4"
+    },
+    "model_parameters": []
+  },
+  "edit_predictions": {
+    "mode": "eager"
+  },
+  "debugger": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "icon_theme": "Zed (Default)",
+  "theme": "Gruvbox Dark Hard",
+  "auto_update": false,
+  "base_keymap": "VSCode",
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "telemetry": {
+    "metrics": false
+  },
+  "buffer_font_family": "Cascadia Code",
+  "buffer_font_features": {
+    "calt": true,
+    "ss01": true,
+    "ss19": true
+  },
+  "buffer_font_size": 14,
+  "ui_font_family": "Inter",
+  "ui_font_size": 16,
+  "tabs": {
+    "close_position": "left",
+    "file_icons": true
+  },
+  "code_actions_on_format": {
+    "source.organizeImports": true
+  },
+  "terminal": {
+    "font_size": 12
+  },
+  "git": {
+    "inline_blame": {
+      "padding": 32
+    }
+  },
+  "languages": {
+    "Python": {
+      "language_servers": ["ty", "!basedpyright", "..."],
+      "formatter": [
+        {
+          "code_actions": {
+            "source.fixAll.ruff": true,
+            "source.organizeImports.ruff": true
+          }
+        },
+        {
+          "language_server": {
+            "name": "ruff"
+          }
+        }
+      ]
+    }
+  },
+  "project_panel": {
+    "hide_root": true
+  },
+  "inlay_hints": {
+    "enabled": true
+  },
+  "format_on_save": "on"
+}
