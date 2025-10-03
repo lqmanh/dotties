@@ -79,7 +79,7 @@
     "hide_root": true
   },
   "inlay_hints": {
-    "enabled": true
+    "enabled": false
   },
   "format_on_save": "on"
 }
