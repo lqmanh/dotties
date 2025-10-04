@@ -2,9 +2,10 @@
 
 ## Development Rules
 - Be concise and to the point
+- Never do anything not explicitly requested. Ask for clarification if unsure.
 - Match existing code style, patterns and conventions
 - Prioritize simplicity, straightforwardness and readability over clever hacks
-- No comments except for quirks, edge cases and workarounds. Use descriptive names for variables, functions, classes,... instead
+- Never write comments except for quirks, edge cases and workarounds. Use descriptive names for variables, functions, classes,... instead.
 - Run tests and linting before completing tasks
 - Leverage MCP servers and project-specific commands
 
