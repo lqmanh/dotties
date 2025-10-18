@@ -7,6 +7,9 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "code_actions_on_format": {
+    "source.organizeImports": true
+  },
   "agent": {
     "default_model": {
       "provider": "zed.dev",
@@ -46,9 +49,6 @@
     "close_position": "left",
     "file_icons": true
   },
-  "code_actions_on_format": {
-    "source.organizeImports": true
-  },
   "terminal": {
     "font_size": 14
   },
@@ -61,12 +61,8 @@
     "Python": {
       "language_servers": ["ty", "!basedpyright", "..."],
       "formatter": [
-        {
-          "code_actions": {
-            "source.fixAll.ruff": true,
-            "source.organizeImports.ruff": true
-          }
-        },
+        { "code_action": "source.fixAll.ruff" },
+        { "code_action": "source.organizeImports.ruff" },
         {
           "language_server": {
             "name": "ruff"

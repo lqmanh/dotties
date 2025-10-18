@@ -1,12 +1,15 @@
 # Global Coding Agent Guidelines
 
-## Development Rules
+## General Rules
 - Be concise and to the point
+- Never use emojis
+
+## Development Rules
 - Never do anything not explicitly requested. Ask for clarification if unsure.
-- Match existing code style, patterns and conventions
-- Prioritize simplicity, straightforwardness and readability over clever hacks
-- Never write comments except for quirks, edge cases and workarounds. Use descriptive names for variables, functions, classes,... instead.
-- Run tests and linting before completing tasks
+- Follow language/framework best practices. Then, match existing code style, patterns and conventions.
+- Prioritize simplicity and straightforwardness over clever hacks
+- Never write comments/docstrings except for quirks, edge cases and workarounds. Use descriptive names for variables, functions, classes,... instead.
+- Run tests, linting and formatting before completing tasks
 - Leverage MCP servers and project-specific commands
 
 ## Security Rules
