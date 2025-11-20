@@ -7,10 +7,19 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "sticky_scroll": {
+    "enabled": true
+  },
+  "title_bar": {
+    "show_branch_name": true,
+    "show_branch_icon": true
+  },
   "code_actions_on_format": {
     "source.organizeImports": true
   },
   "agent": {
+    "play_sound_when_agent_done": true,
+    "enable_feedback": false,
     "default_model": {
       "provider": "zed.dev",
       "model": "claude-sonnet-4"
@@ -18,7 +27,7 @@
     "model_parameters": []
   },
   "edit_predictions": {
-    "mode": "eager"
+    "mode": "subtle"
   },
   "debugger": {
     "dock": "left"
